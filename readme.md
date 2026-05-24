@@ -63,10 +63,12 @@ POST /detect
 6. See JSON detection result
 
 ##  Project Structure
+```
 grocery-detection
 ├── main.py            # FastAPI application
 ├── best.pt            # Trained YOLOv8 model
 ├── requirements.txt   # Dependencies
 └── README.md          # Project documentation
 └── train.ipynb        # training notebook
+```
 
