@@ -1,4 +1,4 @@
-# 🛒 Camera-Based Product Detection System
+# Camera-Based Product Detection System
 
 A real-time grocery product detection system built with YOLOv8 and FastAPI.
 
