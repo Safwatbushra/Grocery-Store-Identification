@@ -34,7 +34,7 @@ uvicorn main:app --reload
 ### 4. Open browser
 http://127.0.0.1:8000/docs
 
-## 🔌 API Usage
+### API Usage
 
 ### Endpoint
 POST /detect
@@ -54,7 +54,7 @@ POST /detect
 }
 ```
 
-## 🧪 How to Test API
+## How to Test API
 1. Go to http://127.0.0.1:8000/docs
 2. Click POST /detect
 3. Click "Try it out"
