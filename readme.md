@@ -19,41 +19,6 @@ Tomato, Carrot, Onion, Garlic, Ginger, Cucumber, Capsicum,
 Brinjal, Mushroom, Leek Leaves, Redchilli, Solid Potato,
 Sweet Potato, Beetroot
 
-## How to Run
-
-### 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/grocery-detection.git
-cd grocery-detection
-
-### 2. Install dependencies
-pip install -r requirements.txt
-
-### 3. Run the API
-uvicorn main:app --reload
-
-### 4. Open browser
-http://127.0.0.1:8000/docs
-
-### API Usage
-
-### Endpoint
-POST /detect
-
-### Input
-- Image file (jpg, png)
-
-### Output
-```json
-{
-  "detections": [
-    {
-      "class": "Tomato",
-      "confidence": 0.43
-    }
-  ]
-}
-```
-
 ## How to Test API
 1. Go to http://127.0.0.1:8000/docs
 2. Click POST /detect
